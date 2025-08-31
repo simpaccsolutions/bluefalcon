@@ -1,3 +1,10 @@
+trigger:
+  branches:
+    include:
+      - main
+      - dev/*
+      - test/*
+      - prod/*
 
 steps:
-- bash: echo "The bluefalcon pipeline runs first"
+  - bash: echo "The bluefalcon pipeline runs first"
