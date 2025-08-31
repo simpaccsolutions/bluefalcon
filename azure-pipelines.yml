@@ -1,1 +1,3 @@
-test
+
+steps:
+- bash: echo "The bluefalcon pipeline runs first"
